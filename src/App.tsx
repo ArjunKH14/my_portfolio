@@ -20,7 +20,7 @@ const App = () => {
   return (
     <AppContext.Provider value={{ themeToggle: [toggleTheme, setToggleTheme] }}>
       <div className={toggleTheme ? "dark" : ""}>
-        <div className={` dark:bg-lightprimary  bg-portprimary dark:text-portprimary text-gray-400 min-h-screen px-10 md:px-20 lg:px-40 opacity-100  `}  >
+        <div className={` dark:bg-lightprimary  bg-portprimary dark:text-portprimary text-white min-h-screen px-10 md:px-20 lg:px-40 opacity-100  `}  >
           <Navbar />
           {/* <About /> */}
           <Header />
