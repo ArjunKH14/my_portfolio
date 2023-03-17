@@ -8,7 +8,9 @@ module.exports = {
         'portprimary':'#111111',
         'portprimary-300':'#2e2e2e',
         'lightprimary':'#f1faee',
-        'cardbg':'#333639'
+        'cardbg':'#333639',
+        'miragedark': '#4CB8C4',
+        'miragelight': '#3A6073'
       },
       height: {
         "10v": "10vh",

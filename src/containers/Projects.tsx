@@ -41,7 +41,8 @@ function Projects() {
 
                 <div  id="Projects" className="flex gap-10 justify-between flex-wrap p-10 ">
                     {projects.map((project) => (
-                        <div className=" bg-cardbg border flex flex-col justify-between border-gray-900  rounded-[40px] p-5 flex-wrap text-slate-300 mt-3 lg:h-25v lg:w-40v w-30v h-25v min-w-max" key={project.name}>
+                        <div className=" rounded-[40px] bg-gradient-to-r from-[#6EE7B7] via-[#3B82F6] to-[#9333EA] dark:from-miragedark dark:to-miragelight">
+                        <div className="bg-portprimary dark:bg-lightprimary dark:text-portprimary border flex flex-col justify-between border-gray-900  rounded-[40px] p-5 flex-wrap text-slate-300 m-1 lg:h-25v lg:w-40v w-30v h-25v min-w-max" key={project.name}>
                             <div>
                                 <h3 className="text-xl lg:text-2xl font-medium flex justify-between ">
                                     <span>
@@ -52,7 +53,7 @@ function Projects() {
                                         <FiArrowRightCircle />
                                     </div>
                                 </h3>
-                                <p className="py-2 text-2xl lg:text-3xl">{project.description}</p>
+                                <p className="py-2 text-2xl lg:text-3xl text-white dark:text-portprimary">{project.description}</p>
                             </div>
 
                             <div className="flex justify-between">
@@ -60,6 +61,7 @@ function Projects() {
                                 <div className="flex flex-col items-center"> <BiWorld size={30}/> <span> Live</span> </div>
                             
                                 
+                                </div>
                             </div>
                         </div>
                     ))}
